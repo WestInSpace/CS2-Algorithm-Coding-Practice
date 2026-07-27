@@ -15,7 +15,7 @@ public class BellmanFord{
 
 		int[] dist = bellmanFord(4, e, 1);
 		
-		System.out.println("Shortest distance from 1 to every other node")
+		System.out.println("Shortest distance from 1 to every other node");
 		for(int i=0; i<dist.length; i++){
 			System.out.println("1 -> " + (i+1) + ": " + dist[i]);
 		}
